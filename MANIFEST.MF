@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: hooksbeta.HooksBeta
+Premain-Class: hooksbeta.Premain
+Can-Redefine-Classes: True
+Can-Retransform-Classes: True
