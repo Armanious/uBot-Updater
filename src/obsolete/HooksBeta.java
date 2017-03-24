@@ -1,9 +1,9 @@
 package obsolete;
 
-import updater.AppletGetter;
-import updater.BytecodeAnalyzerUpdater;
-import updater.RunescapeInnerFiles;
-import updater.RuntimeUpdater;
+import updater.dynamicanalysis.AppletGetter;
+import updater.dynamicanalysis.RuntimeUpdater;
+import updater.staticanalysis.BytecodeAnalyzerUpdater;
+import updater.staticanalysis.RunescapeInnerFiles;
 
 import java.awt.BorderLayout;
 import java.io.File;

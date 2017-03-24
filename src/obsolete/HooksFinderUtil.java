@@ -29,8 +29,8 @@ import org.objectweb.asm.tree.FieldInsnNode;
 import org.objectweb.asm.tree.LdcInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 
-import updater.BytecodeAnalyzerUpdater;
-import updater.RuntimeUpdater;
+import updater.dynamicanalysis.RuntimeUpdater;
+import updater.staticanalysis.BytecodeAnalyzerUpdater;
 
 public class HooksFinderUtil {
 

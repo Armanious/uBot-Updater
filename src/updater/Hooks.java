@@ -43,6 +43,9 @@ import org.objectweb.asm.tree.LdcInsnNode;
 import org.objectweb.asm.tree.MethodNode;
 import org.objectweb.asm.tree.VarInsnNode;
 
+import updater.dynamicanalysis.RuntimeUpdater;
+import updater.staticanalysis.BytecodeAnalyzerUpdater;
+
 public class Hooks {
 
 	/*SubMenuX, MinimapOffset, SkillExperiences, LoginIndex, CamPosY, RSItemHashTable, IsMenuCollapsed, 

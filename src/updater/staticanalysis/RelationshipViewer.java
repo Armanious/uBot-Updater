@@ -1,4 +1,4 @@
-package updater.relationships;
+package updater.staticanalysis;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

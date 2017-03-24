@@ -1,4 +1,4 @@
-package updater;
+package updater.dynamicanalysis;
 
 import java.io.File;
 import java.io.IOException;

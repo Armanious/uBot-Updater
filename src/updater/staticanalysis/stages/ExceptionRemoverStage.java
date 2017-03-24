@@ -1,4 +1,4 @@
-package updater.stages;
+package updater.staticanalysis.stages;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package updater;
+package updater.dynamicanalysis;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

@@ -1,4 +1,4 @@
-package updater;
+package updater.staticanalysis;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

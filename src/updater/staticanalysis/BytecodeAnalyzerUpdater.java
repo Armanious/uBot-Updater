@@ -1,4 +1,4 @@
-package updater;
+package updater.staticanalysis;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,9 +15,7 @@ import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.tree.ClassNode;
 
-import updater.relationships.RelationshipSet;
-import updater.relationships.RelationshipViewer;
-import updater.stages.ExceptionRemoverStage;
+import updater.staticanalysis.stages.ExceptionRemoverStage;
 
 public class BytecodeAnalyzerUpdater {
 

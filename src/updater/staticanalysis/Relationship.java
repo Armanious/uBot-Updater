@@ -1,4 +1,4 @@
-package updater.relationships;
+package updater.staticanalysis;
 
 import java.util.ArrayList;
 import java.util.HashMap;

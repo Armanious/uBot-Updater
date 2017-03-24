@@ -5,17 +5,22 @@ import java.io.IOException;
 
 import javax.swing.UIManager;
 
-public class UpdaterBeta {
+import updater.dynamicanalysis.AppletGetter;
+import updater.dynamicanalysis.RuntimeUpdater;
+import updater.staticanalysis.BytecodeAnalyzerUpdater;
+import updater.staticanalysis.RunescapeInnerFiles;
+
+public class UpdaterEntry {
 
 	public static void main(String...args) throws Exception {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-		new UpdaterBeta().run();
+		new UpdaterEntry().run();
 	}
 
 	private final RuntimeUpdater runtime;
 	private final BytecodeAnalyzerUpdater bytecode;
 
-	private UpdaterBeta() throws IOException, ReflectiveOperationException {
+	private UpdaterEntry() throws IOException, ReflectiveOperationException {
 		runtime = new RuntimeUpdater(AppletGetter.getApplet());
 		bytecode = BytecodeAnalyzerUpdater.loadFromJarFile(RunescapeInnerFiles.get());
 	}

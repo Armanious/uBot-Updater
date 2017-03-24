@@ -1,4 +1,4 @@
-package updater;
+package updater.dynamicanalysis;
 
 import java.applet.Applet;
 import java.lang.reflect.Field;
